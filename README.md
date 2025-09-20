@@ -6,6 +6,10 @@
 # Siemens Energy Digitalization Transformation Engineer
 *Developed using Python by Heider Jeffer*
 
+
+If you're interested in exploring the code and seeing how the Daily Output Monitor is implemented, check out the Jupyter Notebook here: [DailyOutputMonitor.ipynb – Siemens Energy Digitalization Transformation Engineer](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/DailyOutputMonitor.ipynb)
+
+
 ---
 
 
