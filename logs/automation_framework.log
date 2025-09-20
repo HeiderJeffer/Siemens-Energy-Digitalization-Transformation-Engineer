@@ -1,0 +1,22 @@
+2025-09-20 15:15:30,766 - INFO - Found 0 files using pattern 'factory_reports/*.xlsx'
+2025-09-20 15:15:30,767 - INFO - No files to process in this batch run.
+2025-09-20 15:16:29,338 - INFO - Found 0 files using pattern 'factory_reports/*.xlsx'
+2025-09-20 15:16:29,338 - INFO - No files to process in this batch run.
+2025-09-20 15:16:35,622 - INFO - Found 0 files using pattern 'factory_reports/*.xlsx'
+2025-09-20 15:16:35,624 - INFO - No files to process in this batch run.
+2025-09-20 15:17:50,530 - INFO - Found 1 files using pattern 'factory_reports/*.xlsx'
+2025-09-20 15:17:50,547 - INFO - Ingested file: factory_reports\report1.xlsx (rows=20)
+2025-09-20 15:17:50,549 - INFO - Combined DataFrame rows: 20
+2025-09-20 15:17:50,558 - INFO - After cleaning, rows=20; columns=['Date', 'Production_Units', 'Machine_ID', '__source_file']
+2025-09-20 15:17:50,566 - INFO - Generated summary with 20 rows
+2025-09-20 15:17:50,587 - INFO - Exported report: automated_reports\summary_report_2025-09-20.xlsx
+2025-09-20 15:17:50,601 - INFO - Simulated RPA upload via shutil: copied automated_reports\summary_report_2025-09-20.xlsx -> upload_area\ERP\summary_report_2025-09-20.xlsx
+2025-09-20 15:17:50,602 - INFO - Batch run completed.
+2025-09-20 15:19:00,814 - INFO - Found 1 files using pattern 'factory_reports/*.xlsx'
+2025-09-20 15:19:00,827 - INFO - Ingested file: factory_reports\report1.xlsx (rows=20)
+2025-09-20 15:19:00,829 - INFO - Combined DataFrame rows: 20
+2025-09-20 15:19:00,834 - INFO - After cleaning, rows=20; columns=['Date', 'Production_Units', 'Machine_ID', '__source_file']
+2025-09-20 15:19:00,838 - INFO - Generated summary with 20 rows
+2025-09-20 15:19:00,852 - INFO - Exported report: automated_reports\summary_report_2025-09-20.xlsx
+2025-09-20 15:19:00,870 - INFO - Simulated RPA upload via shutil: copied automated_reports\summary_report_2025-09-20.xlsx -> upload_area\ERP\summary_report_2025-09-20.xlsx
+2025-09-20 15:19:00,872 - INFO - Batch run completed.
