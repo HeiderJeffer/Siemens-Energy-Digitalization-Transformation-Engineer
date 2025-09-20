@@ -13,7 +13,7 @@ If you're interested in exploring the code and seeing how the Daily Output Monit
 ---
 
 
-### 🎯 What this adds to Siemens Energy pitch
+### What this adds to Siemens Energy pitch
 
 1. Not only automates reporting, but also **intelligently monitors production**.
 2. **Real-time alerts** possible (e.g., notify managers when output is unusually low).
