@@ -6,9 +6,6 @@
 🔗 Explore the project: [GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)
 📓 See the live workflow: [Jupyter Notebook – Daily Output Monitor](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/DailyOutputMonitor.ipynb)
 
-
-
-
 # ⚡ Smart Factory Digitalization Framework
 
 Welcome to the **Smart Factory Digitalization Framework** – a prototype project showcasing how **Siemens Energy’s digital transformation vision** can be brought to life with **low-cost, high-impact automation**.
@@ -28,31 +25,6 @@ Unlike traditional heavy RPA systems, this framework is **lightweight, scalable,
 * 🌍 Scalability across Siemens Energy’s global factory network
 
 This repository is not just code — it’s a **vision** of how digitalization can empower engineers, free talent from repetitive tasks, and create smarter, more resilient factories for the future of energy.
-
-
-
- 
-
-# ⚡ Smart Factory Digitalization Framework
-
-Welcome to the **Smart Factory Digitalization Framework** – a prototype project showcasing how **Siemens Energy’s digital transformation vision** can be brought to life with **low-cost, high-impact automation**.
-
-This project demonstrates how **open-source tools (Python, Pandas, Matplotlib)** can replace hours of repetitive, manual reporting with a **fully automated workflow** that:
-
-* 📂 Ingests factory Excel reports
-* 🧹 Cleans, validates, and monitors data quality
-* 📊 Generates daily production summaries automatically
-* 🚨 Detects anomalies in real time (e.g., sudden production drops)
-* 📈 Provides clear dashboards for managers and engineers
-
-Unlike traditional heavy RPA systems, this framework is **lightweight, scalable, and cost-optimized** — delivering measurable benefits such as:
-
-* ⏱ **20–30% reduction** in repetitive reporting work
-* 💰 **€60,000–180,000 yearly savings** (Trento site estimate)
-* 🌍 Scalability across Siemens Energy’s global factory network
-
-This repository is not just code — it’s a **vision** of how digitalization can empower engineers, free talent from repetitive tasks, and create smarter, more resilient factories for the future of energy.
-
 
 
 ## ⚡ Quick Start Demo
@@ -75,7 +47,6 @@ factory_reports/sample_report.xlsx
 
 with 30 days of synthetic production data for 3 machines.
 
----
 
 ### 2️⃣ Run the Automation Framework
 
@@ -85,7 +56,6 @@ Execute the main pipeline:
 python automation_framework.py
 ```
 
----
 
 ### 3️⃣ Check the Output
 
@@ -101,7 +71,7 @@ python automation_framework.py
   * Green dashed line = Factory average
   * 🔴 Red dots = Anomalies (production < 80% of average)
 
----
+ 
 
 ### ✅ Example Run (Logs)
 
@@ -124,7 +94,8 @@ It demonstrates how **low-cost, open-source tools (Python, Pandas, Matplotlib)**
 * **Generate dashboards & visual insights** for managers and engineers
 * Deliver measurable **time & cost savings** while supporting Siemens Energy’s mission of digital transformation
 
----
+
+
 
 ## 🚀 Features
 
@@ -134,7 +105,7 @@ It demonstrates how **low-cost, open-source tools (Python, Pandas, Matplotlib)**
 * Anomaly detection (flags outputs below 80% of average)
 * Visualization of production trends with anomalies highlighted
 
----
+
 
 ## 🏭 Why It Matters
 
@@ -146,14 +117,14 @@ By introducing lightweight **Python automation**, we can:
 * Improve **data accuracy & decision-making speed**
 * Scale the solution globally across Siemens Energy sites
 
----
+
 
 ## 📈 Example Output
 
 * **Summary Report:** Daily aggregated production in Excel
 * **Dashboard Plot:** Production trend line with anomalies highlighted in red
 
----
+
 
 ## 🔧 Tech Stack
 
@@ -162,7 +133,7 @@ By introducing lightweight **Python automation**, we can:
 * OpenPyXL (Excel I/O)
 * Matplotlib (visualization)
 
----
+
 
 ## 🧭 Next Steps
 
@@ -170,7 +141,7 @@ By introducing lightweight **Python automation**, we can:
 * Integrate with Power BI dashboards for factory-wide visibility
 * Deploy modular RPA (Robotic Process Automation) pipelines for global roll-out
 
----
+
 
 
 ## ⚡ Usage Instructions
@@ -234,7 +205,7 @@ python automation_framework.py
 * ✅ **Daily Summary Report** (Excel) → saved in `automated_reports/summary_report_YYYY-MM-DD.xlsx`
 * 📊 **Dashboard Plot** → visualizes production trends & anomalies
 
----
+
 
 ## 📂 Example Run
 
@@ -250,7 +221,7 @@ Found 1 file(s). Processing...
 * Green dashed line = Average production
 * 🔴 Red dots = Anomalies (production < 80% of average)
 
----
+
 
 ## 🔮 Future Enhancements
 
@@ -258,7 +229,7 @@ Found 1 file(s). Processing...
 * Build predictive maintenance ML models
 * Integrate with Power BI / cloud dashboards
 
----
+
 
 
 ✅ Done! I created a **sample dataset generator script**.
@@ -276,7 +247,7 @@ Preview of the synthetic data:
 | 2025-09-02 | 104               | M1          |
 | 2025-09-02 | 173               | M2          |
 
----
+
 
 ### 📄 `generate_test_data.py`
 
@@ -320,7 +291,7 @@ if __name__ == "__main__":
  
 This code reads production data from Excel, detects days where production is unusually low, and makes a **line chart** showing daily production with anomalies highlighted in **red** and the average shown as a **green dashed line**.
 
----
+
 
 ### Results:
 
@@ -331,7 +302,7 @@ This code reads production data from Excel, detects days where production is unu
     Both days fall below 80% of the factory’s average output.
 * **Visualization**: The plot shows daily production with anomalies highlighted in **red**, and the mean production line as a **green dashed reference**.
 
----
+
 
 ### **1. Importing the library**
 
@@ -342,7 +313,7 @@ import matplotlib.pyplot as plt
 * This line imports `matplotlib`, a library used for **making charts and plots** in Python.
 * `plt` is just a short name we’ll use to call its functions.
 
----
+
 
 ### **2. Loading data from Excel**
 
@@ -354,7 +325,7 @@ summary = pd.read_excel("automated_reports/summary_report_2025-09-20.xlsx")
 * Each row is probably one day, with columns like `'Date'` and `'Production_Units'`.
 * `pd` is usually short for **pandas**, a library for handling tables in Python. (The code assumes `import pandas as pd` was done earlier.)
 
----
+
 
 ### **3. Calculating the mean and detecting anomalies**
 
@@ -373,7 +344,7 @@ summary['Anomaly'] = summary['Production_Units'] < threshold
 
 This helps **highlight days with unusually low production**.
 
----
+
 
 ### **4. Making the plot**
 
@@ -387,7 +358,7 @@ plt.plot(summary['Date'], summary['Production_Units'], marker='o', label="Daily 
 * `marker='o'` adds little circles on each data point.
 * `label="Daily Production"` gives a name for the chart legend.
 
----
+
 
 ### **5. Showing the average line**
 
@@ -398,7 +369,7 @@ plt.axhline(mean_units, color='green', linestyle='--', label=f"Mean ({mean_units
 * Draws a **horizontal dashed green line** at the average production.
 * Helps you see which days are above or below the average.
 
----
+
 
 ### **6. Highlighting anomalies**
 
@@ -412,7 +383,7 @@ plt.scatter(summary.loc[summary['Anomaly'], 'Date'],
 * `summary.loc[summary['Anomaly'], 'Date']` gets the dates of low production.
 * `zorder=5` ensures these red dots appear **on top of other plot elements**.
 
----
+
 
 ### **7. Adding labels, grid, and finalizing the plot**
 
@@ -433,7 +404,7 @@ plt.show()
 * `plt.tight_layout()` → adjusts spacing so nothing is cut off.
 * `plt.show()` → **displays the chart**.
 
----
+
 
 ### **8. Showing the summary table**
 
@@ -444,7 +415,7 @@ summary
 * This just prints the `summary` table.
 * Now it also includes the `Anomaly` column, so you can see which days were flagged.
 
----
+
 
 
 
