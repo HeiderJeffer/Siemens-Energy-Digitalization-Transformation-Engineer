@@ -11,6 +11,12 @@
 🤖 [Interactive RPA ROI Calculator](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/Siemens_RPA_ROI_Calculator.py.ipynb)
 
 
+### Python Prototype
+
+![Python Prototype](https://raw.githubusercontent.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/main/data/Python%20Prototype%20by%20Helder%20Jeffer.png)
+
+
+
 
 # ⚡ Smart Factory Digitalization Framework
 
