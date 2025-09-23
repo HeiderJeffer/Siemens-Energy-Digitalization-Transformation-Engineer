@@ -247,3 +247,125 @@ plt.tight_layout()
 plt.show()
 ```
 
+
+# Mathematical notation
+
+### **1) Time saved by automation**
+
+If $T_\text{manual}$ is manual time per week and $R$ is reduction fraction from automation:
+
+$$
+T_\text{saved} = T_\text{manual} \times R
+$$
+
+**Example:** 5 hours/week × 0.25 → 1.25 hours saved/week.
+
+
+
+### **2) ROI (Return on Investment)**
+
+If $C_\text{saved}$ is labor cost saved per period, $C_\text{project}$ is project cost:
+
+$$
+\text{ROI} = \frac{C_\text{saved} - C_\text{project}}{C_\text{project}} \times 100\%
+$$
+
+**Example:** €63,000 saved, €20,000 project → ROI = 215%.
+
+
+
+### **3) Data Quality Index**
+
+If $N_\text{errors}$ = number of errors detected, $N_\text{total}$ = total records:
+
+$$
+\text{Data Quality} = 1 - \frac{N_\text{errors}}{N_\text{total}}
+$$
+
+Value between 0 (all bad) and 1 (perfect).
+
+
+
+### **4) Anomaly Detection (Simple Threshold)**
+
+If $x_i$ = data point, $\mu$ = mean, $\sigma$ = standard deviation:
+
+$$
+\text{Anomaly if } |x_i - \mu| > k \cdot \sigma
+$$
+
+Where $k$ is sensitivity factor.
+
+
+
+### **5) System Optimization**
+
+For **components interacting**, let $P_i$ = performance of component $i$, $C_{ij}$ = connection efficiency between $i$ and $j$. System performance:
+
+$$
+S_\text{total} = \sum_i P_i + \sum_{i,j} C_{ij}
+$$
+
+Example: Volkswagen engine optimization — maximize $S_\text{total}$.
+
+
+
+### **6) CIA Principles (Conceptual Math)**
+
+* **Confidentiality (C)**: Probability data is secure $P_\text{confidential}$
+* **Integrity (I)**: Probability data remains accurate $P_\text{integrity}$
+* **Availability (A)**: Probability system is accessible $P_\text{availability}$
+
+$$
+\text{Secure System Index} = P_\text{confidential} \cdot P_\text{integrity} \cdot P_\text{availability}
+$$
+
+All values between 0 and 1; 1 = fully secure.
+
+
+
+### **7) KPI Aggregation**
+
+If $K_i$ = each KPI measured (hours saved, % error reduction, etc.):
+
+$$
+\text{KPI Index} = \frac{\sum_i w_i \cdot K_i}{\sum_i w_i}
+$$
+
+Where $w_i$ is the weight of each KPI for importance.
+
+
+
+### **8) Automation Pipeline Success Probability**
+
+Let $P_\text{ETL}$ = probability ETL runs correctly, $P_\text{RPA}$ = probability robotic process automation runs correctly, $P_\text{report}$ = probability report generates:
+
+$$
+P_\text{success} = P_\text{ETL} \cdot P_\text{RPA} \cdot P_\text{report}
+$$
+
+
+
+### **9) First 90 Days Efficiency Model**
+
+Let $E(t)$ = efficiency at time $t$ in days, $E_\text{max}$ = maximum efficiency:
+
+$$
+E(t) = E_\text{max} \cdot \frac{t}{90}, \quad t = 0,1,2,...,90
+$$
+
+Linear growth approximation from 0 → full operational impact.
+
+
+
+### **10) Scaling Factor**
+
+Let $N_\text{sites}$ = number of factories deployed, $S_\text{unit}$ = single-site improvement:
+
+$$
+\text{Total Improvement} = N_\text{sites} \cdot S_\text{unit}
+$$
+
+
+
+
