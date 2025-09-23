@@ -304,6 +304,19 @@ This code reads production data from Excel, detects days where production is unu
 
 
 
+# **Interactive RPA ROI Calculator in Python**
+
+**Introduction:**
+This Python script is an easy-to-use, interactive tool designed to calculate the **Return on Investment (ROI)** for **Robotic Process Automation (RPA)** projects.
+
+RPA helps organizations automate repetitive, rule-based tasks, and this script allows users to quickly estimate the financial impact of implementing RPA. By entering key cost components—like licensing, implementation, training, and maintenance—and benefit components—such as labor savings, error reduction, compliance improvements, and efficiency gains—the calculator outputs the **total costs, total benefits, and ROI percentage**.
+
+This tool is ideal for **business analysts, finance teams, RPA consultants, and managers** who want a simple, practical way to evaluate whether an RPA initiative is financially worthwhile. It can be used for project planning, budget justification, or quick assessments of automation opportunities.
+
+---
+
+
+
 ### **1. Importing the library**
 
 ```python
