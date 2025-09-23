@@ -406,15 +406,6 @@ plt.show()
 
 
 
-### **8. Showing the summary table**
-
-```python
-summary
-```
-
-* This just prints the `summary` table.
-* Now it also includes the `Anomaly` column, so you can see which days were flagged.
-
 
 
 
