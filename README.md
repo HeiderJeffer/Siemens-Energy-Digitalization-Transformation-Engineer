@@ -81,7 +81,17 @@ This prototype demonstrates how **Python and open-source tools** can replace hou
 
 # ⚡ Environment Setup & Installation
 
-Follow these steps to set up Python 3.11, Jupyter, and all necessary packages for running the project.
+Get started with data science by setting up your environment:
+
+## **Essential Tools:**
+
+* Package & Environment Management: [Anaconda](https://www.anaconda.com/products/distribution)
+* Version Control: [Git](https://git-scm.com/downloads) and [GitHub Desktop](https://desktop.github.com/)
+* Code Editors: [Visual Studio Code](https://code.visualstudio.com/) and [Sublime Text](https://www.sublimetext.com/)
+* Terminal / Command Line Tools: [Windows Terminal](https://aka.ms/terminal) 
+
+
+## **Follow these steps to set up Python 3.11, Jupyter, and all necessary packages for running the project.**
 
 ## 1️⃣ Create Conda Environment
 
@@ -93,6 +103,10 @@ conda activate project11
 ## 2️⃣ Launch Jupyter
 
 ```bash
+conda activate project11
+```
+
+```bash
 jupyter-lab
 # or
 jupyter notebook
@@ -100,7 +114,16 @@ jupyter notebook
 
 ## 3️⃣ Upgrade PIP
 
-**Linux:**
+**Linux and WSL**
+
+```bash
+sudo apt-get update
+sudo apt upgrade -y
+```
+
+```bash
+sudo apt install python-is-python3
+```
 
 ```bash
 python -m pip install --upgrade pip
@@ -153,7 +176,6 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter contrib nbextension install --user
 jupyter nbextension list
 ```
-
 
 
 # ⚡ Quick Start Demo
