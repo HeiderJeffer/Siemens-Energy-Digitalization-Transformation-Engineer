@@ -212,6 +212,98 @@ Found 1 file(s). Processing...
 ```
 
 
+# Create One-Click Environment Setup Script (Windows & Linux/macOS)
+
+Set up your environment and start Jupyter in one step—perfect for new Siemens Energy team members.
+
+## 1️⃣ Bash Script (Linux / macOS / WSL)
+
+Create a file named `setup_env.sh`:
+
+```bash
+#!/bin/bash
+# ⚡ Fully Automated Python Environment Setup for All Platforms
+# Developed by Heider Jeffer for Siemens Energy
+# ✅ Variables
+ENV_NAME="project11"
+PYTHON_VERSION="3.11"
+REQ_FILE="requirements.txt"
+
+# 1. Create Conda environment
+echo "Creating Conda environment '$ENV_NAME' with Python $PYTHON_VERSION..."
+conda create -n $ENV_NAME python=$PYTHON_VERSION ipykernel -y
+
+# 2. Activate environment
+echo "Activating environment..."
+source $(conda info --base)/etc/profile.d/conda.sh
+conda activate $ENV_NAME
+
+# 3. Upgrade pip
+echo "Upgrading pip..."
+python -m pip install --upgrade pip
+
+# 4. Install all packages
+echo "Installing packages from $REQ_FILE..."
+pip install -r $REQ_FILE
+
+# 5. Enable Jupyter extensions
+echo "Enabling Jupyter extensions..."
+jupyter nbextension enable --py widgetsnbextension
+jupyter contrib nbextension install --user
+
+# 6. Launch Jupyter Lab
+echo "Launching Jupyter Lab..."
+jupyter-lab
+```
+
+Make it executable and run:
+
+```bash
+chmod +x setup_env.sh
+./setup_env.sh
+```
+
+---
+
+## 2️⃣ Batch Script (Windows)
+
+Create a file named `setup_env.bat`:
+
+```bat
+@echo off
+:: ⚡ Fully Automated Python Environment Setup for All Platforms
+:: Developed by Heider Jeffer for Siemens Energy
+SET ENV_NAME=project11
+SET PYTHON_VERSION=3.11
+SET REQ_FILE=requirements.txt
+
+echo Creating Conda environment %ENV_NAME% with Python %PYTHON_VERSION%...
+conda create -n %ENV_NAME% python=%PYTHON_VERSION% ipykernel -y
+
+echo Activating environment...
+call conda activate %ENV_NAME%
+
+echo Upgrading pip...
+python -m pip install --upgrade pip
+
+echo Installing packages from %REQ_FILE%...
+pip install -r %REQ_FILE%
+
+echo Enabling Jupyter extensions...
+jupyter nbextension enable --py widgetsnbextension
+jupyter contrib nbextension install --user
+
+echo Launching Jupyter Lab...
+jupyter-lab
+```
+
+Run it by double-clicking or via command prompt:
+
+```bat
+setup_env.bat
+```
+
+ 
 
 # **Interactive RPA ROI Calculator**
 
