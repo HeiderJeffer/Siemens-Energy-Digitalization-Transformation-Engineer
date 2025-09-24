@@ -386,19 +386,3 @@ $$
 \text{Total Improvement} = N_\text{sites} \cdot S_\text{unit}
 $$
 
-
-
-# ✅ Summary
-
-This document now integrates:
-
-* **Project overview & GitHub links**
-* **Metrics & formulas**
-* **Smart factory automation framework**
-* **Full environment setup & Python dependencies**
-* **Quick start demo**
-* **ROI calculator**
-* **Future enhancements & mathematical notation**
-
-Everything needed to **run, extend, and present the Siemens Energy Digitalization Transformation Engineer project** in a clean, professional, and reproducible way.
-
