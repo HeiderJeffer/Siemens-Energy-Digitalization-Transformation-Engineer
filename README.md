@@ -264,7 +264,7 @@ chmod +x setup_env.sh
 ./setup_env.sh
 ```
 
----
+
 
 ## 2️⃣ Batch Script (Windows)
 
