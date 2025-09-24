@@ -90,8 +90,9 @@ Get started with data science by setting up your environment:
 * Code Editors: [Visual Studio Code](https://code.visualstudio.com/) and [Sublime Text](https://www.sublimetext.com/)
 * Terminal / Command Line Tools: [Windows Terminal](https://aka.ms/terminal) 
 
+## Setting Up Python 3.11, Jupyter, and Required Packages for the Project
 
-## **Follow these steps to set up Python 3.11, Jupyter, and all necessary packages for running the project.**
+ 
 
 ## 1️⃣ Create Conda Environment
 
