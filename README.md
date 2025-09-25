@@ -2,11 +2,26 @@
 
 ### *Developed in Python by Heider Jeffer*
 
-🔗 [GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)
 
-📓 [Live Workflow – Daily Output Monitor](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/DailyOutputMonitor.ipynb)
 
-🤖 [Interactive RPA ROI Calculator](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/Siemens_RPA_ROI_Calculator.py.ipynb)
+## Siemens Energy Digitalization Transformation Projects
+
+🔗 **[GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)**
+
+Central repository containing all code, notebooks, and project documentation.
+
+📓 **[Live Workflow – Daily Output Monitor](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/DailyOutputMonitor.ipynb)**
+
+Interactive notebook tracking daily operational outputs, visualizing performance trends, and highlighting anomalies.
+
+🤖 **[Interactive RPA ROI Calculator](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/Siemens_RPA_ROI_Calculator.py.ipynb)**
+
+Python-based calculator for estimating ROI of robotic process automation projects, integrating automation metrics and cost-benefit analysis.
+
+💡 **[Business Metrics Dashboard – Siemens Energy](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/siemens_energy_metrics.ipynb)**
+
+Comprehensive Python notebook implementing 10 key business and operational metrics, with visualizations for efficiency, data quality, anomalies, ROI, and system optimization.
+
 
 
 ### Python Prototype
@@ -336,7 +351,7 @@ $$
 * Higher values → more time freed for **strategic or higher-value work**.
 * 0 → no time saved; 1 (or 100%) → entire process automated.
 
----
+
 
 ### **2) ROI (Return on Investment)**
 
@@ -351,7 +366,7 @@ $$
 * 0% → break-even; negative → costs more than it saves.
 * Larger % → stronger business case and faster payback.
 
----
+
 
 ### **3) Data Quality Index**
 
@@ -366,7 +381,7 @@ $$
 * 1 → perfect data quality (no errors).
 * Higher values → better decisions, less rework, fewer mistakes.
 
----
+
 
 ### **4) Anomaly Detection (Threshold Method)**
 
@@ -380,7 +395,7 @@ $$
 * Helps flag potential **production issues or errors**.
 * Value outside threshold → requires attention; inside → normal operation.
 
----
+
 
 ### **5) System Optimization**
 
@@ -394,7 +409,7 @@ $$
 * Higher $S_\text{total}$ → smoother, faster, more efficient operations.
 * Used to evaluate **mechanical, electrical, or process improvements**.
 
----
+
 
 ### **6) CIA Principles (Confidentiality, Integrity, Availability)**
 
@@ -409,7 +424,7 @@ $$
 * 1 → fully secure, accurate, and always accessible.
 * Ensures **data protection, trust, and operational continuity**.
 
----
+
 
 ### **7) KPI Aggregation**
 
@@ -424,7 +439,7 @@ $$
 * Higher → better performance across targeted business objectives.
 * Useful for **management dashboards and progress tracking**.
 
----
+
 
 ### **8) Automation Pipeline Success Probability**
 
@@ -438,7 +453,7 @@ $$
 * 0 → pipeline always fails; 1 → pipeline always succeeds.
 * High value → confidence that automation reduces manual errors and delivers consistent results.
 
----
+
 
 ### **9) First 90 Days Efficiency**
 
@@ -453,7 +468,7 @@ $$
 * 1 (or 100%) → full efficiency realized.
 * Helps track **progression and effectiveness of initial implementation**.
 
----
+
 
 ### **10) Scaling Factor**
 
@@ -468,5 +483,5 @@ $$
 * Higher → larger impact at the organizational level.
 * Useful for **business case of digitalization rollout**.
 
----
+
 
