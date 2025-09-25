@@ -12,6 +12,7 @@ sns.set(style="whitegrid")
 # --- User Info ----------
 # =========================
 USER_NAME = "Heider Jeffer"
+ORG_NAME = "Siemens Energy Digitalization Transformation Engineer"
 
 # =========================
 # --- Metric Functions ----
@@ -38,6 +39,7 @@ def efficiency_over_time(t: int, E_max: float) -> float:
 # --- Sidebar -------------
 # =========================
 st.sidebar.title(f"{USER_NAME}'s Dynamic Estimation Dashboard")
+st.sidebar.markdown(f"**Made for {ORG_NAME}**")
 menu = st.sidebar.radio("Select Tool:", ["Dynamic Metrics", "RPA ROI Simulation", "KPI Comparison"])
 
 # =========================
@@ -45,9 +47,11 @@ menu = st.sidebar.radio("Select Tool:", ["Dynamic Metrics", "RPA ROI Simulation"
 # =========================
 if menu == "Dynamic Metrics":
     st.title(f"Dynamic Estimation Metrics - By {USER_NAME}")
+    st.markdown(f"**Tailored for {ORG_NAME}**")
     
     # 1️⃣ Efficiency
     st.header("1️⃣ First 90 Days Efficiency")
+    st.markdown(f"_For {ORG_NAME}_")
     E_max = st.slider("Maximum Efficiency (E_max)", 0.5, 1.5, 1.0)
     days = list(range(91))
     efficiency = [efficiency_over_time(t, E_max) for t in days]
@@ -59,6 +63,7 @@ if menu == "Dynamic Metrics":
 
     # 2️⃣ Data Quality
     st.header("2️⃣ Data Quality Simulation")
+    st.markdown(f"_For {ORG_NAME}_")
     mode_dq = st.radio("Select Input Mode:", ["Random", "Manual"], key="dq_mode")
     if mode_dq == "Random":
         N_datasets = st.slider("Number of Datasets", 2, 10, 5)
@@ -79,6 +84,7 @@ if menu == "Dynamic Metrics":
 
     # 3️⃣ Time Saved & ROI
     st.header("3️⃣ Time Saved & ROI Simulation")
+    st.markdown(f"_For {ORG_NAME}_")
     mode_roi = st.radio("Select Input Mode:", ["Random", "Manual"], key="roi_mode")
     if mode_roi == "Random":
         T_manual_list = np.random.randint(50, 200, size=N_datasets)
@@ -108,6 +114,7 @@ if menu == "Dynamic Metrics":
 
     # 4️⃣ Anomaly Detection
     st.header("4️⃣ Anomaly Detection")
+    st.markdown(f"_For {ORG_NAME}_")
     data = np.random.randint(90, 150, size=15)
     mu = np.mean(data)
     sigma = np.std(data)
@@ -144,6 +151,7 @@ if menu == "Dynamic Metrics":
 # =========================
 elif menu == "RPA ROI Simulation":
     st.title(f"RPA ROI Simulation - By {USER_NAME}")
+    st.markdown(f"**Tailored for {ORG_NAME}**")
     mode_rpa = st.radio("Select Input Mode:", ["Random", "Manual"], key="rpa_mode")
     cost_components = ["License", "Implementation", "Training", "Maintenance"]
     benefit_components = ["Labor Savings", "Error Reduction", "Compliance", "Efficiency"]
@@ -198,6 +206,7 @@ elif menu == "RPA ROI Simulation":
 # =========================
 elif menu == "KPI Comparison":
     st.title(f"KPI Comparison Dashboard - By {USER_NAME}")
+    st.markdown(f"**Tailored for {ORG_NAME}**")
     mode_kpi = st.radio("Select Input Mode:", ["Random", "Manual"], key="kpi_mode")
     datasets = [f"Project {c}" for c in ["A","B","C","D","E"]]
 
@@ -225,6 +234,7 @@ elif menu == "KPI Comparison":
     })
 
     st.header("KPI Table with Anomaly Highlighting")
+    st.markdown(f"_For {ORG_NAME}_")
     k_anom = st.slider("Anomaly Threshold Multiplier (k)", 1.0, 5.0, 2.0)
 
     def highlight_anomaly(val, col):
