@@ -340,7 +340,7 @@ Evaluate ROI of RPA initiatives:
 
 
 
-# **Quantitative Models for Automation and System Efficiency in Energy Digitalization**
+# Modeling Automation for Smarter Digitalization at Siemens Energy
 
 ### **1) Time Saved by Automation**
 
