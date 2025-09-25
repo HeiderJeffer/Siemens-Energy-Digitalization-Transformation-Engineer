@@ -2,8 +2,6 @@
 
 ### *Developed in Python by Heider Jeffer*
 
-
-
 ## Siemens Energy Digitalization Transformation Projects
 
 🔗 **[GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)**
@@ -23,10 +21,15 @@ Python-based calculator for estimating ROI of robotic process automation project
 Comprehensive Python notebook implementing 10 key business and operational metrics, with visualizations for efficiency, data quality, anomalies, ROI, and system optimization.
 
 
-
-### Python Prototype
+## Python Prototype
 
 ![Python Prototype](https://raw.githubusercontent.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/main/data/Python%20Prototype%20by%20Helder%20Jeffer.png)
+
+
+## From Metrics to Impact: Siemens Energy’s Digital Evolution
+
+![Python Prototype](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/data/Data%20Insights%20for%20Siemens%20Energy%E2%80%99s%20Future%20by%20Heider%20Jeffer.png)
+
 
 
 <!---
