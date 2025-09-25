@@ -322,7 +322,7 @@ Evaluate ROI of RPA initiatives:
 
 
 
-# **Mathematical Notation & Key Formulas**
+# **Quantitative Models for Automation and System Efficiency in Energy Digitalization**
 
 ### **1) Time Saved by Automation**
 
