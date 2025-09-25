@@ -155,6 +155,8 @@ python.exe -m pip install --upgrade pip
 ## 4️⃣ Install Python Packages
 
 ```bash
+pip install streamlit matplotlib seaborn
+pip install pandas openpyxl
 pip install pomegranate
 pip install hmmlearn
 pip install wordcloud
