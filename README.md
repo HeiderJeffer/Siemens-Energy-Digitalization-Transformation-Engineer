@@ -2,8 +2,13 @@
 
 ***Built with Python by Heider Jeffer***
 
-[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) | 📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)
 
+[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/) | 🐍 [See the Code](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) | 🐍 [How It Works](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md) | ⬇️ [Download & Run](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/tree/main/One-Click%20Environment%20Setup)
+
+
+
+
+Do you want me to **also update the “Peek Inside the Robot’s Brain” section** with these new names so it matches perfectly?
 
 
 Think of this project like giving Siemens Energy a **robot assistant powered by Python**.
@@ -28,17 +33,6 @@ Turn factories into smart factories with **low-cost, high-impact automation**:
 * 📊 Help managers and engineers see data clearly
 
 **Result:** work faster, save money, and scale it across all Siemens Energy sites.
-
-
-
-## ⚡ One-Click Quick Start
-
-Get everything ready to run the project in **one simple step**:
-
-[📥 Download setup & run everything automatically](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/tree/main/One-Click%20Environment%20Setup)
-
-> Works on **Linux, macOS, WSL, and Windows**—no complicated setup needed.
-
 
 
 ## 🔮 Future Enhancements (cool stuff coming soon)
