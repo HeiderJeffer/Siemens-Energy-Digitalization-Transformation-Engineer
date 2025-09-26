@@ -82,22 +82,9 @@ powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siem
 
 
 
-# Modeling Automation for Smarter Digitalization at Siemens Energy
+# From Metrics to Code: Python Implementation for Siemens Energy
 
-**Explore the full Python implementation and metric modeling here:**
-[📄 Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)
+Explore Python-driven **metric modeling** and **detailed code implementations** for Siemens Energy’s digitalization initiatives. These resources combine **metric calculations, functions, and visualizations** to help you **understand, replicate, and scale** data-driven solutions.
 
-
-
-# Breaking Down Python Code for Smarter Digitalization at Siemens Energy
-
-**Detailed Python walkthrough of each metric and function:**
-[📄 Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md)
-
-
-### ✅ Key Notes
-
-* The **Modeling Automation Notebook** explains how digitalization metrics are calculated and applied across projects.
-* The **Python Code Breakdown Notebook** shows **exact implementations, functions, and example visualizations** for each metric.
-* Together, these resources allow you to **understand, replicate, and scale digitalization initiatives** for Siemens Energy.
+📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md)
 
