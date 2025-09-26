@@ -1,31 +1,18 @@
 # Siemens Energy Digitalization Transformation Engineer
 
-### *Developed in Python by Heider Jeffer*
+### *Built with Python by Heider Jeffer*
 
 ## Live Web App
 
-Access the **Siemens Energy Digitalization Dashboard – Web App by Heider Jeffer** here:  
-[https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/)
+Interact with the **Siemens Energy Digitalization Dashboard**, a dynamic tool for visualizing and analyzing digital transformation initiatives:
 
+[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/)
 
-## Siemens Energy Digitalization Transformation Projects
+## Project Resources & Code
 
-🔗 **[GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)**
+Explore the underlying projects, datasets, and code powering the dashboard:
 
-Central repository containing all code, notebooks, and project documentation.
-
-📓 **[Live Workflow – Daily Output Monitor](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/DailyOutputMonitor.ipynb)**
-
-Interactive notebook tracking daily operational outputs, visualizing performance trends, and highlighting anomalies.
-
-🤖 **[Interactive RPA ROI Calculator](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/Siemens_RPA_ROI_Calculator.py.ipynb)**
-
-Python-based calculator for estimating ROI of robotic process automation projects, integrating automation metrics and cost-benefit analysis.
-
-💡 **[Business Metrics Dashboard – Siemens Energy](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/siemens_energy_metrics.ipynb)**
-
-Comprehensive Python notebook implementing 10 key business and operational metrics, with visualizations for efficiency, data quality, anomalies, ROI, and system optimization.
-
+🔗 [GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)
 
 ## Python Prototype
 
