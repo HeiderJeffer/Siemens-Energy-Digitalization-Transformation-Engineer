@@ -2,7 +2,7 @@
 
 ***Built with Python by Heider Jeffer***
 
-👉 [🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) | 📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)
+[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) | 📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)
 
 
 
@@ -21,14 +21,23 @@ Basically: **less human headache, more smart factory magic.**
 
 ## 🏭 Smart Factory Digitalization Framework
 
-This is the big idea: **turn factories into smart factories** with low-cost, high-impact automation.
-The framework shows how Python can:
+Turn factories into smart factories with **low-cost, high-impact automation**:
 
 * 🧹 Replace hours of manual reporting with one click
 * 🚨 Catch mistakes before they become big problems
 * 📊 Help managers and engineers see data clearly
 
 **Result:** work faster, save money, and scale it across all Siemens Energy sites.
+
+
+
+## ⚡ One-Click Quick Start
+
+Get everything ready to run the project in **one simple step**:
+
+[📥 Download setup & run everything automatically](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/tree/main/One-Click%20Environment%20Setup)
+
+> Works on **Linux, macOS, WSL, and Windows**—no complicated setup needed.
 
 
 
@@ -39,6 +48,21 @@ The framework shows how Python can:
 * ☁️ Dashboards in the cloud so everyone can see the magic
 
 **Bottom line:** Python robot = faster work, less waste, happier factories.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,6 +77,7 @@ The framework shows how Python can:
 
 -->
 
+<!--
 ## ⚡ One-Click Quick Start
 
 Run the full setup—Python 3.11 Conda environment, all required packages, Jupyter extensions, and launch Jupyter Lab—in **two simple steps**.
@@ -82,4 +107,4 @@ powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siem
 ```
 
 > This downloads the batch file and executes it automatically.
-
+-->
