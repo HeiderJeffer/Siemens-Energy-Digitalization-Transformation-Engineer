@@ -2,7 +2,7 @@
 
 ---
 
-# ⚡🐍 Siemens Energy Digitalization Transformation Engineer
+## ⚡🐍 Siemens Energy Digitalization Transformation Engineer
 
 ***Built with Python by Heider Jeffer***
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 🤖 Meet the Python Robot
+### 🤖 Meet the Python Robot
 
 Think of this project like giving Siemens Energy a **robot assistant powered by Python**.
 
@@ -26,7 +26,7 @@ Instead of humans doing boring copy-paste work all day, the robot:
 
 ---
 
-## 🏭 Smart Factory Framework
+### 🏭 Smart Factory Framework
 
 Turn factories into **smart, automated factories** with low-cost, high-impact solutions:
 
@@ -36,13 +36,15 @@ Turn factories into **smart, automated factories** with low-cost, high-impact so
 
 **Result:** work faster, save money, and scale across Siemens Energy sites.
 
+---
+
 ### Dashboard Preview
 
 ![Siemens Energy Digitalization Dashboard](https://raw.githubusercontent.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/main/data/Python%20Prototype%20by%20Helder%20Jeffer.png)
 
 ---
 
-## 🔮 Coming Soon
+### 🔮 Coming Soon
 
 * 📧 Emails/Slack alerts when something breaks
 * 🤖 Predict machine tantrums before they happen
