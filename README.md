@@ -88,242 +88,26 @@ This prototype demonstrates how **Python and open-source tools** can replace hou
 
 
 
-# ⚡ Environment Setup & Installation
+# ⚡ One-Click Quick Start
 
-Get started with data science by setting up your environment:
+Run the full setup—Python 3.11 Conda environment, all required packages, Jupyter extensions, and launch Jupyter Lab—in **one command**.
 
-## **Essential Tools:**
-
-* Package & Environment Management: [Anaconda](https://www.anaconda.com/products/distribution)
-* Version Control: [Git](https://git-scm.com/downloads) and [GitHub Desktop](https://desktop.github.com/)
-* Code Editors: [Visual Studio Code](https://code.visualstudio.com/) and [Sublime Text](https://www.sublimetext.com/)
-* Terminal / Command Line Tools: [Windows Terminal](https://aka.ms/terminal) 
-
-## Setting Up Python 3.11, Jupyter, and Required Packages for the Project
-
- 
-
-## 1️⃣ Create Conda Environment
+### Linux / macOS / WSL
 
 ```bash
-conda create -n project11 python=3.11 ipykernel -y
-conda activate project11
+bash <(curl -s https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/raw/main/One-Click%20Environment%20Setup/setup_env.sh)
 ```
 
-## 2️⃣ Launch Jupyter
+> This command **downloads the script and runs it immediately**. No need to manually download or set executable permissions.
 
-```bash
-conda activate project11
+### Windows (Command Prompt / PowerShell)
+
+```powershell
+powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/raw/main/One-Click%20Environment%20Setup/setup_env.bat -OutFile setup_env.bat; .\setup_env.bat"
 ```
 
-```bash
-jupyter-lab
-# or
-jupyter notebook
-```
+> This command **downloads the batch file and executes it automatically**.
 
-## 3️⃣ Upgrade PIP
-
-**Linux and WSL**
-
-```bash
-sudo apt-get update
-sudo apt upgrade -y
-```
-
-```bash
-sudo apt install python-is-python3
-```
-
-```bash
-python -m pip install --upgrade pip
-```
-
-**Windows:**
-
-```bash
-python.exe -m pip install --upgrade pip
-```
-
-## 4️⃣ Install Python Packages
-
-```bash
-pip install streamlit matplotlib seaborn
-pip install pandas openpyxl
-pip install pomegranate
-pip install hmmlearn
-pip install wordcloud
-pip install alpha_vantage
-pip install yfinance matplotlib
-pip install pulp
-pip install matplotlib
-pip install onnx
-pip install gekko
-pip install beautifulsoup4
-pip install lxml
-pip install keras
-pip install numpy
-pip install opencv-python
-pip install pandas
-pip install plotly
-pip install torch torchvision
-pip install scikit-learn
-pip install scipy
-pip install seaborn
-pip install statsmodels
-pip install tclab
-pip install tensorflow
-pip install xgboost
-pip install jupyterlab notebook
-pip install nltk
-pip install PyDrive
-pip install pandas-profiling[notebook]
-pip install jupyter_contrib_nbextensions
-```
-
-## 5️⃣ Enable Jupyter Extensions
-
-```bash
-jupyter nbextension enable --py widgetsnbextension
-jupyter contrib nbextension install --user
-jupyter nbextension list
-```
-
-
-# ⚡ Quick Start Demo
-
-### 1️⃣ Generate Test Data
-
-```bash
-python generate_test_data.py
-```
-
-Creates a sample Excel report at:
-
-```
-factory_reports/sample_report.xlsx
-```
-
-### 2️⃣ Run the Automation Framework
-
-```bash
-python automation_framework.py
-```
-
-### 3️⃣ Check the Output
-
-* ✅ Daily summary Excel → `automated_reports/summary_report_YYYY-MM-DD.xlsx`
-* 📊 Dashboard plot visualizing trends and anomalies
-
-**Example Logs:**
-
-```bash
-Found 1 file(s). Processing...
-  -> Ingested factory_reports/sample_report.xlsx with 90 rows
-✅ Automated production summary created: automated_reports/summary_report_2025-09-20.xlsx
-```
-
-
-# Create One-Click Environment Setup Script (Windows & Linux/macOS)
-
-Set up your environment and start Jupyter in one step—perfect for new Siemens Energy team members.
-
-## 1️⃣ Bash Script (Linux / macOS / WSL)
-
-Create a file named `setup_env.sh`:
-
-```bash
-#!/bin/bash
-# ⚡ Fully Automated Python Environment Setup for All Platforms
-# Developed by Heider Jeffer for Siemens Energy
-# ✅ Variables
-ENV_NAME="project11"
-PYTHON_VERSION="3.11"
-REQ_FILE="requirements.txt"
-
-# 1. Create Conda environment
-echo "Creating Conda environment '$ENV_NAME' with Python $PYTHON_VERSION..."
-conda create -n $ENV_NAME python=$PYTHON_VERSION ipykernel -y
-
-# 2. Activate environment
-echo "Activating environment..."
-source $(conda info --base)/etc/profile.d/conda.sh
-conda activate $ENV_NAME
-
-# 3. Upgrade pip
-echo "Upgrading pip..."
-python -m pip install --upgrade pip
-
-# 4. Install all packages
-echo "Installing packages from $REQ_FILE..."
-pip install -r $REQ_FILE
-
-# 5. Enable Jupyter extensions
-echo "Enabling Jupyter extensions..."
-jupyter nbextension enable --py widgetsnbextension
-jupyter contrib nbextension install --user
-
-# 6. Launch Jupyter Lab
-echo "Launching Jupyter Lab..."
-jupyter-lab
-```
-
-Make it executable and run:
-
-```bash
-chmod +x setup_env.sh
-./setup_env.sh
-```
-
-
-
-## 2️⃣ Batch Script (Windows)
-
-Create a file named `setup_env.bat`:
-
-```bat
-@echo off
-:: ⚡ Fully Automated Python Environment Setup for All Platforms
-:: Developed by Heider Jeffer for Siemens Energy
-SET ENV_NAME=project11
-SET PYTHON_VERSION=3.11
-SET REQ_FILE=requirements.txt
-
-echo Creating Conda environment %ENV_NAME% with Python %PYTHON_VERSION%...
-conda create -n %ENV_NAME% python=%PYTHON_VERSION% ipykernel -y
-
-echo Activating environment...
-call conda activate %ENV_NAME%
-
-echo Upgrading pip...
-python -m pip install --upgrade pip
-
-echo Installing packages from %REQ_FILE%...
-pip install -r %REQ_FILE%
-
-echo Enabling Jupyter extensions...
-jupyter nbextension enable --py widgetsnbextension
-jupyter contrib nbextension install --user
-
-echo Launching Jupyter Lab...
-jupyter-lab
-```
-
-Run it by double-clicking or via command prompt:
-
-```bat
-setup_env.bat
-```
-
- 
-
-# **Interactive RPA ROI Calculator**
-
-Evaluate ROI of RPA initiatives:
-
-* Enter cost components (license, implementation, training, maintenance)
-* Enter benefit components (labor savings, error reduction, efficiency gains)
-* Calculate total costs, benefits, and ROI
 
 
 
