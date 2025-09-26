@@ -1,7 +1,9 @@
 ### Copy-paste the following commands in your terminal:
 
 ```bash
+pip install --upgrade pip
 pip install streamlit matplotlib seaborn
+pip install streamlit pandas matplotlib seaborn xlsxwriter
 pip install pomegranate
 pip install hmmlearn
 pip install wordcloud
@@ -33,4 +35,5 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter contrib nbextension install --user
 jupyter nbextension list
 ````
+
 
