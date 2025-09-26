@@ -1,10 +1,11 @@
-# Dynamic Estimation Dashboard with Anomaly Detection & Excel Export - By Heider Jeffer
+# Dynamic Estimation Dashboard with Machine Learning - By Heider Jeffer
 import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from io import BytesIO
+from sklearn.linear_model import LinearRegression
 
 sns.set(style="whitegrid")
 
@@ -40,7 +41,16 @@ def efficiency_over_time(t: int, E_max: float) -> float:
 # =========================
 st.sidebar.title(f"{USER_NAME}'s Dynamic Estimation Dashboard")
 st.sidebar.markdown(f"**Made for {ORG_NAME}**")
-menu = st.sidebar.radio("Select Tool:", ["Dynamic Metrics", "RPA ROI Simulation", "KPI Comparison"])
+
+# Add "AI" to the menu list so it appears in the sidebar
+menu = st.sidebar.radio(
+    "Select Tool:",
+    ["Dynamic Metrics", "RPA ROI Simulation", "KPI Comparison", "AI"]
+	# ["Dynamic Metrics", "RPA ROI Simulation", "KPI Comparison", "Machine Learning", "AI"]
+
+
+)
+
 
 # =========================
 # --- Dynamic Metrics -----
@@ -51,7 +61,6 @@ if menu == "Dynamic Metrics":
     
     # 1️⃣ Efficiency
     st.header("1️⃣ First 90 Days Efficiency")
-    st.markdown(f"_For {ORG_NAME}_")
     E_max = st.slider("Maximum Efficiency (E_max)", 0.5, 1.5, 1.0)
     days = list(range(91))
     efficiency = [efficiency_over_time(t, E_max) for t in days]
@@ -63,7 +72,6 @@ if menu == "Dynamic Metrics":
 
     # 2️⃣ Data Quality
     st.header("2️⃣ Data Quality Simulation")
-    st.markdown(f"_For {ORG_NAME}_")
     mode_dq = st.radio("Select Input Mode:", ["Random", "Manual"], key="dq_mode")
     if mode_dq == "Random":
         N_datasets = st.slider("Number of Datasets", 2, 10, 5)
@@ -84,7 +92,6 @@ if menu == "Dynamic Metrics":
 
     # 3️⃣ Time Saved & ROI
     st.header("3️⃣ Time Saved & ROI Simulation")
-    st.markdown(f"_For {ORG_NAME}_")
     mode_roi = st.radio("Select Input Mode:", ["Random", "Manual"], key="roi_mode")
     if mode_roi == "Random":
         T_manual_list = np.random.randint(50, 200, size=N_datasets)
@@ -114,7 +121,6 @@ if menu == "Dynamic Metrics":
 
     # 4️⃣ Anomaly Detection
     st.header("4️⃣ Anomaly Detection")
-    st.markdown(f"_For {ORG_NAME}_")
     data = np.random.randint(90, 150, size=15)
     mu = np.mean(data)
     sigma = np.std(data)
@@ -234,7 +240,6 @@ elif menu == "KPI Comparison":
     })
 
     st.header("KPI Table with Anomaly Highlighting")
-    st.markdown(f"_For {ORG_NAME}_")
     k_anom = st.slider("Anomaly Threshold Multiplier (k)", 1.0, 5.0, 2.0)
 
     def highlight_anomaly(val, col):
@@ -256,7 +261,6 @@ elif menu == "KPI Comparison":
     sns.heatmap(df_kpi.set_index('Dataset').T, annot=True, cmap='coolwarm', ax=ax)
     st.pyplot(fig)
 
-    # Excel export
     st.header("💾 Download KPI Report")
     buffer = BytesIO()
     with pd.ExcelWriter(buffer, engine='xlsxwriter') as writer:
@@ -268,3 +272,80 @@ elif menu == "KPI Comparison":
         file_name=f"{USER_NAME}_KPI_Comparison.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+
+
+
+# =========================
+# --- Machine Learning ----
+# =========================
+elif menu == "Machine Learning":
+    st.title(f"Machine Learning Module - By {USER_NAME}")
+    st.markdown(f"**Tailored for {ORG_NAME}**")
+    
+    # Sample KPI-like data
+    N = st.slider("Number of datasets", 10, 50, 20)
+    np.random.seed(42)
+    df_ml = pd.DataFrame({
+        'Data_Quality': np.random.uniform(0.7, 1.0, N).round(2),
+        'Time_Saved': np.random.randint(50, 200, N),
+        'ROI': np.random.randint(-10, 50, N),
+        'Efficiency': np.random.uniform(0.6, 1.0, N).round(2)
+    })
+    st.dataframe(df_ml.head())
+
+    # Train Linear Regression
+    from sklearn.linear_model import LinearRegression
+    X = df_ml[['Data_Quality', 'Time_Saved', 'Efficiency']]
+    y = df_ml['ROI']
+    model = LinearRegression()
+    model.fit(X, y)
+    df_ml['Predicted_ROI'] = model.predict(X)
+
+    st.subheader("Predicted ROI & Coefficients")
+    st.dataframe(pd.DataFrame({'Feature': X.columns, 'Coefficient': model.coef_}))
+    st.write(f"Intercept: {model.intercept_:.2f}")
+    
+    # Anomaly Detection
+    k = st.slider("Anomaly Threshold Multiplier (k)", 1.0, 5.0, 2.0)
+    mu = df_ml['ROI'].mean()
+    sigma = df_ml['ROI'].std()
+    df_ml['Anomaly'] = df_ml['ROI'].apply(lambda x: abs(x - mu) > k*sigma)
+    st.dataframe(df_ml)
+
+    # Distribution Plot
+    fig, ax = plt.subplots(figsize=(10,5))
+    sns.histplot(df_ml['ROI'], color='blue', kde=True, stat="density", bins=15, ax=ax)
+    sns.histplot(df_ml['Predicted_ROI'], color='green', kde=True, stat="density", bins=15, ax=ax, alpha=0.6)
+    ax.set_title("Actual vs Predicted ROI Distribution")
+    st.pyplot(fig)
+
+# =========================
+# --- AI Module -----------
+# =========================
+elif menu == "AI":
+    st.title(f"AI Insights Module - By {USER_NAME}")
+    st.markdown(f"**Tailored for {ORG_NAME}**")
+
+    # Sample project data
+    datasets = [f"Project {c}" for c in ["A","B","C","D","E"]]
+    df_ai = pd.DataFrame({
+        'Dataset': datasets,
+        'Data_Quality': np.random.uniform(0.7, 1.0, len(datasets)).round(2),
+        'Time_Saved': np.random.randint(50, 200, len(datasets)),
+        'ROI': np.random.randint(-10, 50, len(datasets)),
+        'Efficiency': np.random.uniform(0.6, 1.0, len(datasets)).round(2)
+    })
+
+    st.header("Project Summary")
+    st.dataframe(df_ai)
+
+    st.header("AI Insights")
+    avg_roi = df_ai['ROI'].mean()
+    df_ai['AI_Insight'] = df_ai['ROI'].apply(lambda x: "Low ROI ⚠️" if x < avg_roi else "Healthy ROI ✅")
+    st.dataframe(df_ai[['Dataset', 'ROI', 'AI_Insight']])
+
+    st.header("ROI Distribution")
+    fig, ax = plt.subplots(figsize=(10,5))
+    sns.histplot(df_ai['ROI'], color='purple', kde=True, bins=10, ax=ax)
+    ax.set_title("AI ROI Distribution Across Projects")
+    st.pyplot(fig)

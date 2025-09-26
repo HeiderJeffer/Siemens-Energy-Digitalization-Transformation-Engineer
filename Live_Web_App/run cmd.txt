@@ -1,3 +1,7 @@
+streamlit run dynamic_estimation_dashboard_full.py
+
+or 
+
 python run_dashboard.py
 
 
