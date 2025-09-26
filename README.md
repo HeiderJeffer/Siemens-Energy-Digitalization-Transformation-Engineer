@@ -1,6 +1,11 @@
 # ⚡ Siemens Energy Digitalization Transformation Engineer
 
-### *Built with Python by Heider Jeffer*
+***Built with Python by Heider Jeffer***
+
+
+👉 [🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) | 📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)
+
+
 
 Think of this project like giving Siemens Energy a **robot assistant powered by Python**.
 
@@ -13,33 +18,32 @@ Instead of humans doing boring copy-paste work all day, the robot:
 
 Basically: **less human headache, more smart factory magic.**
 
-Wanna peek inside the robot’s brain?
-📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md)
 
-🔮 Coming soon, the robot will also:
 
-* 📧 Send you emails/Slack messages when stuff breaks
-* 🤖 Predict when machines are about to throw a tantrum
-* ☁️ Share dashboards in the cloud so everyone can see the magic
+## 🏭 Smart Factory Digitalization Framework
+
+This is the big idea: **turn factories into smart factories** with low-cost, high-impact automation.
+The framework shows how Python can:
+
+* 🧹 Replace hours of manual reporting with one click
+* 🚨 Catch mistakes before they become big problems
+* 📊 Help managers and engineers see data clearly
+
+**Result:** work faster, save money, and scale it across all Siemens Energy sites.
+
+
+
+## 🔮 Future Enhancements (cool stuff coming soon)
+
+* 📧 Emails/Slack alerts when something breaks
+* 🤖 Predict machine tantrums before they happen
+* ☁️ Dashboards in the cloud so everyone can see the magic
 
 **Bottom line:** Python robot = faster work, less waste, happier factories.
 
 
 
-
-
-## Live Web App
-
-Interact with the **Siemens Energy Digitalization Dashboard**, a dynamic tool for visualizing and analyzing digital transformation initiatives:
-
-[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/)
-
-## Project Resources & Code
-
-Explore the underlying projects, datasets, and code powering the dashboard:
-
-🔗 [GitHub Repository](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer)
-
+<!--
 ## Python Prototype
 
 ![Python Prototype](https://raw.githubusercontent.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/main/data/Python%20Prototype%20by%20Helder%20Jeffer.png)
@@ -48,25 +52,7 @@ Explore the underlying projects, datasets, and code powering the dashboard:
 
 ![Python Prototype](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/data/Data%20Insights%20for%20Siemens%20Energy%E2%80%99s%20Future%20by%20Heider%20Jeffer.png)
 
-# ⚡ Smart Factory Digitalization Framework
-
-**Transforming Siemens Energy’s factories with low-cost, high-impact automation.**
-
-This prototype demonstrates how **Python and open-source tools** can replace hours of repetitive manual reporting with a **fully automated workflow** that:
-
-* 📂 Ingests Excel factory reports
-* 🧹 Cleans, validates, and monitors data quality
-* 📊 Generates daily production summaries automatically
-* 🚨 Detects anomalies in real-time
-* 📈 Produces clear dashboards for managers and engineers
-
-**Key benefits:**
-
-* ⏱ 20–30% reduction in repetitive reporting
-* 💰 Estimated €60k–180k yearly savings (Trento site)
-* 🌍 Scalable across Siemens Energy’s global factory network
-
-
+-->
 
 # ⚡ One-Click Quick Start
 
@@ -97,12 +83,4 @@ powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siem
 ```
 
 > This downloads the batch file and executes it automatically.
-
-
-
-# 🔮 Future Enhancements
-
-* Automated anomaly alerts (email/Slack)
-* Predictive maintenance ML models
-* Power BI/cloud dashboard integration
 
