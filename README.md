@@ -74,15 +74,6 @@ powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siem
 
 
 
-This version is **safe, reliable, and cross-platform**:
-
-* Works in WSL even if `<(curl …)` fails
-* Avoids manual `chmod`
-* Downloads the script first, then executes it
-* Ensures all Python packages and Jupyter Lab are installed and ready
-
-
-
 # 🔮 Future Enhancements
 
 * Automated anomaly alerts (email/Slack)
