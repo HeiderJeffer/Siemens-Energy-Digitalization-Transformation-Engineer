@@ -1,5 +1,7 @@
 # Breaking Down Python Code for Smarter Digitalization at Siemens Energy
 
+*By Heider Jeffer*
+
 ## **Overview**
 
 The notebook is a **comprehensive framework for business and operational metrics**, designed to support Siemens Energy’s **digitalization and automation initiatives**. It implements **10 key metrics**, calculates their values in Python, and provides **visualizations** to monitor trends, anomalies, and performance improvements.
