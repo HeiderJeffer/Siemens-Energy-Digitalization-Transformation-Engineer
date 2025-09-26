@@ -2,6 +2,25 @@
 
 ### *Built with Python by Heider Jeffer*
 
+
+This project shows how **Python can save time and money** at Siemens Energy by turning boring manual work into **smart, automatic systems**.
+
+Instead of people spending hours making reports, the code:
+
+* 📂 Reads factory data
+* 🧹 Cleans and checks it
+* 📊 Makes clear dashboards
+* 🚨 Spots problems early
+
+The goal is simple: **work faster, waste less, and make factories smarter.**
+
+If you’re curious about the “behind the scenes”:
+
+* 📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md) → *explains how the automation model works*
+* 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) → *shows the code in simple steps*
+
+
+
 ## Live Web App
 
 Interact with the **Siemens Energy Digitalization Dashboard**, a dynamic tool for visualizing and analyzing digital transformation initiatives:
@@ -79,12 +98,4 @@ powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siem
 * Automated anomaly alerts (email/Slack)
 * Predictive maintenance ML models
 * Power BI/cloud dashboard integration
-
-
-
-# From Metrics to Code: Python Implementation for Siemens Energy
-
-Explore Python-driven **metric modeling** and **detailed code implementations** for Siemens Energy’s digitalization initiatives. These resources combine **metric calculations, functions, and visualizations** to help you **understand, replicate, and scale** data-driven solutions.
-
-📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md)
 
