@@ -1,9 +1,6 @@
-# Siemens Energy Digitalization Transformation Engineer
+# ⚡ Siemens Energy Digitalization Transformation Engineer
 
 ### *Built with Python by Heider Jeffer*
-
- 
-# ⚡ Siemens Energy Digitalization Transformation Engineer
 
 Think of this project like giving Siemens Energy a **robot assistant powered by Python**.
 
