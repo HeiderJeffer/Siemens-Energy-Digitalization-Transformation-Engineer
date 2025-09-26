@@ -2,7 +2,6 @@
 
 ***Built with Python by Heider Jeffer***
 
-
 👉 [🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/) | 📄 [Python Code Breakdown Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md) | 📄 [Modeling Automation Notebook](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)
 
 
@@ -54,7 +53,7 @@ The framework shows how Python can:
 
 -->
 
-# ⚡ One-Click Quick Start
+## ⚡ One-Click Quick Start
 
 Run the full setup—Python 3.11 Conda environment, all required packages, Jupyter extensions, and launch Jupyter Lab—in **two simple steps**.
 
