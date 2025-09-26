@@ -1,4 +1,4 @@
-## Breaking Down Python Code for Smarter Digitalization at Siemens Energy
+# Breaking Down Python Code for Smarter Digitalization at Siemens Energy
 
 ## **Overview**
 
