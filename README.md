@@ -90,15 +90,23 @@ This prototype demonstrates how **Python and open-source tools** can replace hou
 
 # ⚡ One-Click Quick Start
 
-Run the full setup—Python 3.11 Conda environment, all required packages, Jupyter extensions, and launch Jupyter Lab—in **one command**.
+Run the full setup—Python 3.11 Conda environment, all required packages, Jupyter extensions, and launch Jupyter Lab—in **two simple steps**.
 
 ### Linux / macOS / WSL
 
+1️⃣ Download the setup script
+
 ```bash
-bash <(curl -s https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/raw/main/One-Click%20Environment%20Setup/setup_env.sh)
+curl -LO https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/raw/main/One-Click%20Environment%20Setup/setup_env.sh
+```
+2️⃣ Run the script
+```
+bash setup_env.sh
 ```
 
-> This command **downloads the script and runs it immediately**. No need to manually download or set executable permissions.
+> This reliably downloads and executes the script in WSL/Linux/macOS. No manual permission changes needed.
+
+---
 
 ### Windows (Command Prompt / PowerShell)
 
@@ -106,7 +114,16 @@ bash <(curl -s https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Tra
 powershell -Command "Invoke-WebRequest -Uri https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/raw/main/One-Click%20Environment%20Setup/setup_env.bat -OutFile setup_env.bat; .\setup_env.bat"
 ```
 
-> This command **downloads the batch file and executes it automatically**.
+> This downloads the batch file and executes it automatically.
+
+---
+
+This version is **safe, reliable, and cross-platform**:
+
+* Works in WSL even if `<(curl …)` fails
+* Avoids manual `chmod`
+* Downloads the script first, then executes it
+* Ensures all Python packages and Jupyter Lab are installed and ready
 
 
 
