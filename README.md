@@ -38,13 +38,20 @@ Turn factories into **smart, automated factories** with low-cost, high-impact so
 
 ---
 
-### Dashboard Preview
+### 🐍 Python Prototype
 
-![Siemens Energy Digitalization Dashboard](https://raw.githubusercontent.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/main/data/Python%20Prototype%20by%20Helder%20Jeffer.png)
+![Python Prototype](https://raw.githubusercontent.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/main/data/Python%20Prototype%20by%20Helder%20Jeffer.png)  
+ 
 
 ---
 
-### 🔮 Coming Soon
+### 📊 From Metrics to Impact
+
+![Python Prototype](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/data/Data%20Insights%20for%20Siemens%20Energy%E2%80%99s%20Future%20by%20Heider%20Jeffer.png)  
+
+---
+
+### 🔮✨ Coming Soon
 
 * 📧 Emails/Slack alerts when something breaks
 * 🤖 Predict machine tantrums before they happen
