@@ -6,7 +6,7 @@
 
 ***Built with Python by Heider Jeffer***
 
-[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/)  | 🐍 [See the Code](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md)  |  🐍 [How It Works](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md) | ⬇️ [Download & Run](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/tree/main/One-Click%20Environment%20Setup)
+[🌐 Launch Web App](https://siemens-energy-digitalization-dashboard-by-heider-jeffer.streamlit.app/)    |   🐍 [See the Code](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/BreakingDown_Python_SmartDigitalization_SiemensEnergy.md)    |    🐍 [How It Works](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/Modeling_Smart_Digitalization_SiemensEnergy.md)   |   ⬇️ [Setup](https://github.com/HeiderJeffer/Siemens-Energy-Digitalization-Transformation-Engineer/blob/main/read/setup.md)
 
 
 ---
